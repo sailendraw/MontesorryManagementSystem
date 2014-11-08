@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>toddlersmaster</class>
+ <widget class="QMainWindow" name="toddlersmaster">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1263</width>
+    <height>816</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>1111</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Triangular</enum>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="tab_10">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <attribute name="title">
+      <string>Academic Information</string>
+     </attribute>
+     <widget class="QLineEdit" name="txt_education">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>10</y>
+        <width>151</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Education</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_current_education">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>151</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>current level</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_11">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <attribute name="title">
+      <string>position</string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>251</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Position</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="txt_position"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>252</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Assigned class</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="txt_assigned_class"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_12">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <attribute name="title">
+      <string>Remarks</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>361</width>
+        <height>151</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Finance</string>
+     </attribute>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>10</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Salary</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_salary">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>10</y>
+        <width>171</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>P.F Amount</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_pf">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>171</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>67</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bank A/C</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_bank">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>70</y>
+        <width>171</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bank Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_bankname">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>100</y>
+        <width>171</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>3</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Fields with * are required.</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>43</y>
+      <width>483</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="lbladminregno">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Teacher ID No</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="txtadminno">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lbladmindate">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Register Date</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="dateEdit">
+       <property name="calendarPopup">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>20</y>
+      <width>121</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QFrame" name="stdimage">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="stdimagebrowse">
+       <property name="text">
+        <string>Browse</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>103</y>
+      <width>891</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QGroupBox" name="personaldetail">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="title">
+        <string>Personal Detail</string>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+       <widget class="QComboBox" name="gender">
+        <property name="geometry">
+         <rect>
+          <x>288</x>
+          <y>90</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="editable">
+         <bool>true</bool>
+        </property>
+        <property name="maxVisibleItems">
+         <number>3</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblgender_4">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>70</y>
+          <width>50</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Gender *</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblbloodgroup_5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>125</y>
+          <width>90</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Blood Group</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblnationality_5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>68</y>
+          <width>71</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Nationality *</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblreligion_5">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>124</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Religion</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblstdcategory_5">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>123</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Marital Status</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="blood">
+        <property name="geometry">
+         <rect>
+          <x>28</x>
+          <y>140</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="editable">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="nationality">
+        <property name="geometry">
+         <rect>
+          <x>28</x>
+          <y>90</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="editable">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="married">
+        <property name="geometry">
+         <rect>
+          <x>158</x>
+          <y>140</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="editable">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtfirstname">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>40</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbldob">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>69</y>
+          <width>90</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Date of Birth *</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtmiddlename">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>40</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbllastname">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>20</y>
+          <width>70</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Last Name *</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblmname">
+        <property name="geometry">
+         <rect>
+          <x>162</x>
+          <y>20</y>
+          <width>90</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Middle Name</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblfname">
+        <property name="geometry">
+         <rect>
+          <x>32</x>
+          <y>20</y>
+          <width>70</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>First Name *</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtreligion">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>141</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtdob">
+        <property name="geometry">
+         <rect>
+          <x>158</x>
+          <y>91</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtlname">
+        <property name="geometry">
+         <rect>
+          <x>288</x>
+          <y>40</y>
+          <width>131</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="title">
+        <string>Contact Detail</string>
+       </property>
+       <widget class="QLabel" name="lbl_tdistrict_5">
+        <property name="geometry">
+         <rect>
+          <x>32</x>
+          <y>70</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>State *</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_tzone_5">
+        <property name="geometry">
+         <rect>
+          <x>172</x>
+          <y>70</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Pin Code *</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_twardno_5">
+        <property name="geometry">
+         <rect>
+          <x>312</x>
+          <y>20</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>City *</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_email">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>140</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_country">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>90</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_adddress">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>40</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_city">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>40</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_tcontactno_8">
+        <property name="geometry">
+         <rect>
+          <x>32</x>
+          <y>120</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Phone 1 *</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_tcountry_5">
+        <property name="geometry">
+         <rect>
+          <x>312</x>
+          <y>70</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Country *</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_address_2">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>40</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_tstreet_5">
+        <property name="geometry">
+         <rect>
+          <x>32</x>
+          <y>20</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Address Line 1 *</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_temail_5">
+        <property name="geometry">
+         <rect>
+          <x>312</x>
+          <y>120</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>E-mail *</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_tmuni_vdc_5">
+        <property name="geometry">
+         <rect>
+          <x>172</x>
+          <y>20</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Address Line 2 *</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_pincode">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_phone">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>140</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_state">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>90</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_tcontactno_9">
+        <property name="geometry">
+         <rect>
+          <x>172</x>
+          <y>120</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Phone 2 </string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_phone2">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>140</y>
+          <width>120</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>670</y>
+      <width>178</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="save">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="next">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1263</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>txtfirstname</tabstop>
+  <tabstop>txtmiddlename</tabstop>
+  <tabstop>txtlname</tabstop>
+  <tabstop>nationality</tabstop>
+  <tabstop>txtdob</tabstop>
+  <tabstop>gender</tabstop>
+  <tabstop>blood</tabstop>
+  <tabstop>married</tabstop>
+  <tabstop>txtreligion</tabstop>
+  <tabstop>txt_adddress</tabstop>
+  <tabstop>txt_address_2</tabstop>
+  <tabstop>txt_city</tabstop>
+  <tabstop>txt_state</tabstop>
+  <tabstop>txt_pincode</tabstop>
+  <tabstop>txt_country</tabstop>
+  <tabstop>txt_phone</tabstop>
+  <tabstop>txt_phone2</tabstop>
+  <tabstop>txt_email</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>txt_education</tabstop>
+  <tabstop>txt_current_education</tabstop>
+  <tabstop>txt_position</tabstop>
+  <tabstop>txt_assigned_class</tabstop>
+  <tabstop>textEdit</tabstop>
+  <tabstop>txt_salary</tabstop>
+  <tabstop>txt_pf</tabstop>
+  <tabstop>txt_bank</tabstop>
+  <tabstop>txt_bankname</tabstop>
+  <tabstop>stdimagebrowse</tabstop>
+  <tabstop>save</tabstop>
+  <tabstop>next</tabstop>
+  <tabstop>txtadminno</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

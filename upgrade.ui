@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>upgrade</class>
+ <widget class="QWidget" name="upgrade">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>653</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>class</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Upgrade to</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="upgarde_class"/>
+     <widget class="QPushButton" name="upgradebtn">
+      <property name="text">
+       <string>Upgrade</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

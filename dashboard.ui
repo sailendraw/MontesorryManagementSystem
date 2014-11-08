@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dashboard</class>
+ <widget class="QMainWindow" name="dashboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="toddlers.qrc">
+    <normaloff>:/icon/logo-1.png</normaloff>:/icon/logo-1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QStackedWidget" name="container">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>30</y>
+          <width>501</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Login Time</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>login time</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="1">
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="loggeduser">
+             <property name="text">
+              <string>Logged user</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="logged">
+             <property name="text">
+              <string>loggeduser</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>170</y>
+          <width>281</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="toddlers.qrc">:/icon/logo.png</pixmap>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>965</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+   </widget>
+   <widget class="QMenu" name="menuStudent">
+    <property name="title">
+     <string>Student</string>
+    </property>
+    <addaction name="actionAdd"/>
+    <addaction name="actionSearch"/>
+    <addaction name="actionEvaluationsheet"/>
+    <addaction name="actionBill"/>
+   </widget>
+   <widget class="QMenu" name="menuStock">
+    <property name="title">
+     <string>Stock</string>
+    </property>
+    <widget class="QMenu" name="menuReport">
+     <property name="title">
+      <string>Report</string>
+     </property>
+     <addaction name="actionTotal_Stock"/>
+     <addaction name="actionPurchase_2"/>
+     <addaction name="actionSales_2"/>
+    </widget>
+    <widget class="QMenu" name="menuPurchase">
+     <property name="title">
+      <string>Purchase</string>
+     </property>
+     <addaction name="actionPurchase_Add"/>
+     <addaction name="actionView_purchase"/>
+    </widget>
+    <widget class="QMenu" name="menuVendor">
+     <property name="title">
+      <string>Vendor</string>
+     </property>
+     <addaction name="actionAdd_2"/>
+     <addaction name="actionProduct"/>
+     <addaction name="actionVendor_Details"/>
+    </widget>
+    <addaction name="menuVendor"/>
+    <addaction name="actionSales"/>
+    <addaction name="menuPurchase"/>
+    <addaction name="actionView"/>
+    <addaction name="menuReport"/>
+   </widget>
+   <widget class="QMenu" name="menuAccount">
+    <property name="title">
+     <string>Account</string>
+    </property>
+    <widget class="QMenu" name="menuFee">
+     <property name="title">
+      <string>Fee </string>
+     </property>
+     <widget class="QMenu" name="menuFee_category">
+      <property name="title">
+       <string>Fee category</string>
+      </property>
+      <addaction name="actionAdd_Category"/>
+      <addaction name="actionExtra_Fee"/>
+     </widget>
+     <widget class="QMenu" name="menuDiscount">
+      <property name="title">
+       <string>Discount</string>
+      </property>
+      <addaction name="actionAdd_Discount"/>
+      <addaction name="actionView_Discount"/>
+     </widget>
+     <addaction name="menuFee_category"/>
+     <addaction name="menuDiscount"/>
+     <addaction name="actionDues"/>
+     <addaction name="actionFee_Setup"/>
+    </widget>
+    <widget class="QMenu" name="menuExpenses">
+     <property name="title">
+      <string>Expenses</string>
+     </property>
+     <addaction name="actionAdd_Heading"/>
+     <addaction name="actionExpenses_Details"/>
+    </widget>
+    <widget class="QMenu" name="menuDaily_Collection">
+     <property name="title">
+      <string>Daily Collection</string>
+     </property>
+     <addaction name="actionDaily_Fee_Collection"/>
+     <addaction name="actionDaily_Sales_Collection"/>
+    </widget>
+    <addaction name="menuFee"/>
+    <addaction name="menuDaily_Collection"/>
+    <addaction name="menuExpenses"/>
+    <addaction name="actionPayslip"/>
+    <addaction name="actionAutomatic_Transaction"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="actionAdd_user"/>
+    <addaction name="actionChange_password"/>
+   </widget>
+   <widget class="QMenu" name="menuQuit">
+    <property name="title">
+     <string>Quit</string>
+    </property>
+    <addaction name="actionQuit_3"/>
+   </widget>
+   <widget class="QMenu" name="menuReport_2">
+    <property name="title">
+     <string>Report</string>
+    </property>
+    <addaction name="actionEvaluationsheet_2"/>
+    <addaction name="actionFee"/>
+    <addaction name="actionExpenses_2"/>
+    <addaction name="actionSalarysheet"/>
+    <addaction name="actionDues_2"/>
+    <addaction name="actionStudent_Report"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuStudent"/>
+   <addaction name="menuStock"/>
+   <addaction name="menuAccount"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuReport_2"/>
+   <addaction name="menuQuit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QToolButton { /* all types of tool button */
+     border: none;
+     border-radius: 6px;
+     background-color: transparent;
+ }
+
+ QToolButton[popupMode=&quot;1&quot;] { /* only for MenuButtonPopup */
+     padding-right: 100px; /* make way for the popup button */
+ }
+
+ QToolButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #dadbde, stop: 1 #f6f7fa);
+ }
+
+ /* the subcontrols below are used only in the MenuButtonPopup mode */
+ QToolButton::menu-button {
+     border: 2px solid gray;
+     border-top-right-radius: 6px;
+     border-bottom-right-radius: 6px;
+     /* 16px width + 4px for border = 20px allocated above */
+     width: 16px;
+ }
+
+ QToolButton::menu-arrow {
+    
+	image: url(:/icon/rightarrow.png);
+ }
+
+ QToolButton::menu-arrow:open {
+     top: 10px; left: 100px; /* shift it a bit */
+ }</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>45</width>
+     <height>45</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionHome"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionAdd">
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/icon/girl.png</normaloff>:/icon/girl.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionSearch">
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/icon/find.png</normaloff>:/icon/find.png</iconset>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </action>
+  <action name="actionEvaluationsheet">
+   <property name="text">
+    <string>Evaluationsheet</string>
+   </property>
+  </action>
+  <action name="actionSales">
+   <property name="text">
+    <string>Sales</string>
+   </property>
+  </action>
+  <action name="actionView">
+   <property name="text">
+    <string>View</string>
+   </property>
+  </action>
+  <action name="actionTotal_Stock">
+   <property name="text">
+    <string>Total Stock</string>
+   </property>
+  </action>
+  <action name="actionPurchase_2">
+   <property name="text">
+    <string>Purchase</string>
+   </property>
+  </action>
+  <action name="actionSales_2">
+   <property name="text">
+    <string>Sales</string>
+   </property>
+  </action>
+  <action name="actionBill">
+   <property name="text">
+    <string>Bill</string>
+   </property>
+  </action>
+  <action name="actionAdd_Category">
+   <property name="text">
+    <string>Add Category</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>New </string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionStudent">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/icon/girl.png</normaloff>:/icon/girl.png</iconset>
+   </property>
+   <property name="text">
+    <string>student</string>
+   </property>
+  </action>
+  <action name="actionStaff">
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/icon/girl_8.png</normaloff>:/icon/girl_8.png</iconset>
+   </property>
+   <property name="text">
+    <string>Staff</string>
+   </property>
+  </action>
+  <action name="actionStock">
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/icon/box3.png</normaloff>:/icon/box3.png</iconset>
+   </property>
+   <property name="text">
+    <string>Stock</string>
+   </property>
+  </action>
+  <action name="actionAccount">
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/icon/dollars.png</normaloff>:/icon/dollars.png</iconset>
+   </property>
+   <property name="text">
+    <string>Account</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/icon/configure-icon.png</normaloff>:/icon/configure-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionAdd_user">
+   <property name="text">
+    <string>Add user</string>
+   </property>
+  </action>
+  <action name="actionChange_password">
+   <property name="text">
+    <string>change password</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/icon/exit.png</normaloff>:/icon/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionSearch_2">
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/icon/find.png</normaloff>:/icon/find.png</iconset>
+   </property>
+   <property name="text">
+    <string>search</string>
+   </property>
+  </action>
+  <action name="actionPayslip">
+   <property name="text">
+    <string>Salarysheet</string>
+   </property>
+  </action>
+  <action name="actionAutomatic_Transaction">
+   <property name="text">
+    <string>Automatic Transaction</string>
+   </property>
+  </action>
+  <action name="actionAdd_Discount">
+   <property name="text">
+    <string>Add Discount</string>
+   </property>
+  </action>
+  <action name="actionDues">
+   <property name="text">
+    <string>Dues</string>
+   </property>
+  </action>
+  <action name="actionAdd_particulars">
+   <property name="text">
+    <string>Add particulars</string>
+   </property>
+  </action>
+  <action name="actionView_Discount">
+   <property name="text">
+    <string>View Discount</string>
+   </property>
+  </action>
+  <action name="actionPurchase_Add">
+   <property name="text">
+    <string>Purchase Add</string>
+   </property>
+  </action>
+  <action name="actionView_purchase">
+   <property name="text">
+    <string>View purchase</string>
+   </property>
+  </action>
+  <action name="actionAdd_2">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionProduct">
+   <property name="text">
+    <string>product</string>
+   </property>
+  </action>
+  <action name="actionVendor_Details">
+   <property name="text">
+    <string>Vendor Details</string>
+   </property>
+  </action>
+  <action name="actionAdd_Heading">
+   <property name="text">
+    <string>Add Heading</string>
+   </property>
+  </action>
+  <action name="actionExpenses_Details">
+   <property name="text">
+    <string>Add Expensess</string>
+   </property>
+  </action>
+  <action name="actionSalary_Sheet">
+   <property name="text">
+    <string>Salary Sheet</string>
+   </property>
+  </action>
+  <action name="actionEvaluationsheet_2">
+   <property name="text">
+    <string>Evaluationsheet</string>
+   </property>
+  </action>
+  <action name="actionFee">
+   <property name="text">
+    <string>Fee</string>
+   </property>
+  </action>
+  <action name="actionExpenses_2">
+   <property name="text">
+    <string>Expenses</string>
+   </property>
+  </action>
+  <action name="actionSalarysheet">
+   <property name="text">
+    <string>Salarysheet</string>
+   </property>
+  </action>
+  <action name="actionDues_2">
+   <property name="text">
+    <string>Dues</string>
+   </property>
+  </action>
+  <action name="actionStudent_Report">
+   <property name="text">
+    <string>Student Report</string>
+   </property>
+  </action>
+  <action name="actionQuit_2">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionQuit_3">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionFee_Setup">
+   <property name="text">
+    <string>Fee Setup</string>
+   </property>
+  </action>
+  <action name="actionHome">
+   <property name="icon">
+    <iconset resource="toddlers.qrc">
+     <normaloff>:/new/prefix1/icon/Home-icon.png</normaloff>:/new/prefix1/icon/Home-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </action>
+  <action name="actionExtra_Fee">
+   <property name="text">
+    <string>Extra Fee</string>
+   </property>
+  </action>
+  <action name="actionDaily_Fee_Collection">
+   <property name="text">
+    <string>Daily Fee Collection</string>
+   </property>
+  </action>
+  <action name="actionDaily_Sales_Collection">
+   <property name="text">
+    <string>Daily Sales Collection</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="toddlers.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionQuit_3</sender>
+   <signal>triggered()</signal>
+   <receiver>dashboard</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>482</x>
+     <y>317</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>viewclass</class>
+ <widget class="QWidget" name="viewclass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;View Class Details&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2" rowspan="2">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>update</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" rowspan="2">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>ClassName</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" rowspan="2">
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="del">
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QTableView" name="tableView"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

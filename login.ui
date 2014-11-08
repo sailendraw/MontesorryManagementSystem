@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QMainWindow" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>485</width>
+    <height>180</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>485</width>
+    <height>200</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>login</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="toddlers.qrc">
+    <normaloff>:/icon/logo-1.png</normaloff>:/icon/logo-1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame
+{
+	background-image: url(:/icon/loginbackground.png);
+border:none;
+}
+#frame QLineEdit {
+ background: qlineargradient(
+  x1:0, y1:0, x2:0, y2:1,
+  stop:0 gray,
+  stop: 0.2 white
+  stop:1 white
+ );
+ border-radius: 1px;
+ border: 1px solid black;
+ min-height: 24px;
+ color: black;
+}
+#frame QPushButton {
+ color: #white; 
+ border: 1px solid black;
+ border-radius: 3px;
+ padding: 1px;
+ background: qlineargradient(
+   x1:0, y1:0, x2:0, y2:1,
+   stop:0 #bec1d2,
+   stop: 0.4 #717990, 
+   stop: 0.5 #5c637d
+   stop:1 #68778e
+ );
+}
+#frame QPushButton:hover
+{
+color:yellow;
+}
+#frame error
+{
+border:none;
+background-color:transparent;
+color:red
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="btn_login">
+       <property name="geometry">
+        <rect>
+         <x>272</x>
+         <y>100</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:transparent;</string>
+       </property>
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>30</y>
+         <width>271</width>
+         <height>62</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="username">
+          <property name="styleSheet">
+           <string notr="true">background:transparent;
+color:black;
+</string>
+          </property>
+          <property name="text">
+           <string>Username</string>
+          </property>
+          <property name="buddy">
+           <cstring>txt_username</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="txt_username">
+          <property name="styleSheet">
+           <string notr="true">background:transparent;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="password">
+          <property name="styleSheet">
+           <string notr="true">color:black;
+background:transparent;</string>
+          </property>
+          <property name="text">
+           <string>Password</string>
+          </property>
+          <property name="buddy">
+           <cstring>txt_password</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="txt_password">
+          <property name="styleSheet">
+           <string notr="true">background:transparent;</string>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="btn_quit">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>100</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:transparent;</string>
+       </property>
+       <property name="text">
+        <string>Quit</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>0</y>
+         <width>361</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Toddlers Zone Login&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>101</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="toddlers.qrc">:/icon/logo-1.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="error">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>471</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="toddlers.qrc"/>
+ </resources>
+ <connections/>
+</ui>

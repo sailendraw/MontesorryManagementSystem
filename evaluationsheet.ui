@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EvaluationSheet</class>
+ <widget class="QWidget" name="EvaluationSheet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>923</width>
+    <height>619</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-1</y>
+     <width>901</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Evaluation Sheet&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>70</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Student Name</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="studentlist">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>70</y>
+     <width>221</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>40</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DOB</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtdob">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>40</y>
+     <width>191</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtroll">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>70</y>
+     <width>191</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>70</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Roll</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>40</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Father's Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtfathername">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>40</y>
+     <width>161</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>701</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Enter Details</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QComboBox" name="subjectlist">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>221</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Subject</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="termlist">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>221</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>First Mid Term</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>First Term</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Second Mid Term</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Second Term</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Final Mid Term</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Final Term</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Term</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>30</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Marks</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtmarks">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>50</y>
+      <width>191</width>
+      <height>29</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>80</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Total</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txttotal">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>100</y>
+      <width>191</width>
+      <height>29</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>30</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Band</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtband">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>50</y>
+      <width>191</width>
+      <height>29</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QComboBox" name="comboclass">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>221</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Class</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>901</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>student Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Subject</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>First Mid Term</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Band</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>240</y>
+     <width>101</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>240</y>
+     <width>101</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>240</y>
+     <width>101</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Report</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>240</y>
+     <width>101</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

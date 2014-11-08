@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icon/Icon_KinderApp50percent.png</file>
+        <file>icon/Add-icon.png</file>
+        <file>icon/Home-icon.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>icon/loginbackground.png</file>
+        <file>icon/configure-icon.png</file>
+        <file>icon/girl.png</file>
+        <file>icon/girl_8.png</file>
+        <file>icon/box3.png</file>
+        <file>icon/dollars.png</file>
+        <file>icon/exit.png</file>
+        <file>icon/find.png</file>
+        <file>icon/School_Clip_Art_162.png</file>
+        <file>icon/rightarrow.png</file>
+        <file>icon/logo.png</file>
+        <file>icon/logo-1.png</file>
+        <file>icon/report.png</file>
+        <file>icon/Add-icon.png</file>
+    </qresource>
+</RCC>

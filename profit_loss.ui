@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>profit_loss</class>
+ <widget class="QWidget" name="profit_loss">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>621</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Profit and loss Report&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Date</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QDateEdit" name="dateEdit"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Month</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="comboBox"/>
+   </item>
+   <item row="3" column="0" colspan="3">
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>Expenditure</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Amount</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Income</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Amount</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>generate</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>student</class>
+ <widget class="QWidget" name="student">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>997</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Applicant No</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Admission No</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Roll no</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5" rowspan="3" colspan="4">
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string>Search student</string>
+        </property>
+        <widget class="QLabel" name="label_83">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>67</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Student</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>20</y>
+           <width>141</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox_2">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>20</y>
+           <width>151</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_84">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>20</y>
+           <width>61</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Class</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="txt_application_no"/>
+      </item>
+      <item row="1" column="1">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="txt_admission_number"/>
+      </item>
+      <item row="1" column="3">
+       <spacer name="horizontalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLineEdit" name="txt_roll_num"/>
+      </item>
+      <item row="2" column="0" rowspan="2">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>First name(English)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2" rowspan="2">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Middle name</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4" rowspan="2">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Last Name</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLineEdit" name="firstname"/>
+      </item>
+      <item row="4" column="1">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLineEdit" name="middlename"/>
+      </item>
+      <item row="4" column="3">
+       <spacer name="horizontalSpacer_7">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="4" column="4">
+       <widget class="QLineEdit" name="lastname"/>
+      </item>
+      <item row="4" column="5">
+       <spacer name="horizontalSpacer_21">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>273</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>नेपाली नाम</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>Birthplace</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>Language</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLineEdit" name="nepaliname"/>
+      </item>
+      <item row="6" column="1">
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLineEdit" name="txt_birthplace"/>
+      </item>
+      <item row="6" column="3">
+       <spacer name="horizontalSpacer_8">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="6" column="4">
+       <widget class="QLineEdit" name="txt_language"/>
+      </item>
+      <item row="6" column="5">
+       <spacer name="horizontalSpacer_22">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>273</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>Religion</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>DOB</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="4">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>जन्म मिति</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QComboBox" name="relgn"/>
+      </item>
+      <item row="8" column="1">
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="8" column="2">
+       <widget class="QDateEdit" name="dateEdit">
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="3">
+       <spacer name="horizontalSpacer_9">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="8" column="4">
+       <widget class="QLineEdit" name="txt_dob_nepali"/>
+      </item>
+      <item row="8" column="5" colspan="4">
+       <spacer name="horizontalSpacer_23">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>461</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>Caste</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="2">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>Nationality</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QComboBox" name="caste"/>
+      </item>
+      <item row="10" column="1">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>13</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="10" column="2">
+       <widget class="QComboBox" name="nationality"/>
+      </item>
+      <item row="10" column="3" colspan="6">
+       <spacer name="horizontalSpacer_19">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>634</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="11" column="0" colspan="9">
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string>Parents Details</string>
+         </attribute>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>9</x>
+            <y>34</y>
+            <width>88</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Father Name</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>9</x>
+            <y>70</y>
+            <width>70</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Birthplace</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_17">
+          <property name="geometry">
+           <rect>
+            <x>9</x>
+            <y>100</y>
+            <width>41</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Living</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_18">
+          <property name="geometry">
+           <rect>
+            <x>9</x>
+            <y>130</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Language</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_19">
+          <property name="geometry">
+           <rect>
+            <x>339</x>
+            <y>40</y>
+            <width>95</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mother Name</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="fathername">
+          <property name="geometry">
+           <rect>
+            <x>169</x>
+            <y>34</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="birthplace">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>70</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="language">
+          <property name="geometry">
+           <rect>
+            <x>169</x>
+            <y>130</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="father_living_yes">
+          <property name="geometry">
+           <rect>
+            <x>169</x>
+            <y>100</y>
+            <width>54</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="father_living_no">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>100</y>
+            <width>50</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="mothername">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>40</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_20">
+          <property name="geometry">
+           <rect>
+            <x>339</x>
+            <y>76</y>
+            <width>70</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Birthplace</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="motherbirthplace">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>76</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="mother_living_yes">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>106</y>
+            <width>54</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="mother_living_no">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>106</y>
+            <width>50</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_21">
+          <property name="geometry">
+           <rect>
+            <x>339</x>
+            <y>106</y>
+            <width>41</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Living</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="mother_language">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>136</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_22">
+          <property name="geometry">
+           <rect>
+            <x>339</x>
+            <y>136</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Language</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_23">
+          <property name="geometry">
+           <rect>
+            <x>9</x>
+            <y>160</y>
+            <width>56</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Address</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="father_address">
+          <property name="geometry">
+           <rect>
+            <x>169</x>
+            <y>160</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_24">
+          <property name="geometry">
+           <rect>
+            <x>339</x>
+            <y>166</y>
+            <width>56</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Address</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="mother_address">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>166</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="father_local_address">
+          <property name="geometry">
+           <rect>
+            <x>169</x>
+            <y>190</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_25">
+          <property name="geometry">
+           <rect>
+            <x>339</x>
+            <y>196</y>
+            <width>95</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Local Address</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_26">
+          <property name="geometry">
+           <rect>
+            <x>9</x>
+            <y>190</y>
+            <width>95</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Local Address</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="mother_local_add">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>196</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Contact Details</string>
+         </attribute>
+         <widget class="QLineEdit" name="homephone">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>20</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_27">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>50</y>
+            <width>101</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Home Phone 2</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_28">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>101</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Home Phone 1</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="homephone_2">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>50</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="father_mobile">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>80</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Father</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_29">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>101</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mobile 1</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="mother_mobile">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>110</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mother</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_30">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>110</y>
+            <width>101</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mobile 2</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="mother_email">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>140</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mobile</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_31">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>140</y>
+            <width>101</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Email</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_32">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>20</y>
+            <width>141</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Emergency Contact</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="emergency_cnt">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>20</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mobile</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_4">
+         <attribute name="title">
+          <string>Occupation</string>
+         </attribute>
+         <widget class="QLabel" name="label_33">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Father's Occupation</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="father_occupation">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>10</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="mother_occupation">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>40</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_34">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mother's Occupation</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>Guardian's Details</string>
+         </attribute>
+         <widget class="QLabel" name="label_35">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>10</y>
+            <width>121</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Guardian Name</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="guardianname">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>10</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="relation">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>40</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_36">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>40</y>
+            <width>121</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Relation</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_37">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>70</y>
+            <width>121</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Address</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="guardian_add">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>70</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_38">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>121</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Contact</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="guardian_cnt">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>100</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_39">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>130</y>
+            <width>121</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Occupation</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="guardian_occupation">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>130</y>
+            <width>146</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_5">
+         <attribute name="title">
+          <string>Student Details</string>
+         </attribute>
+         <widget class="QWidget" name="layoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>761</width>
+            <height>261</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLabel" name="label_40">
+             <property name="text">
+              <string>Give details of any physical disability or previous illness</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPlainTextEdit" name="details"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_7">
+         <attribute name="title">
+          <string>Academic Details</string>
+         </attribute>
+         <widget class="QLabel" name="label_41">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>10</y>
+            <width>101</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Assigned Class</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="assignedclass">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>10</y>
+            <width>301</width>
+            <height>31</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_6">
+         <attribute name="title">
+          <string>finance</string>
+         </attribute>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>10</y>
+            <width>591</width>
+            <height>251</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>please choose Account Details for students</string>
+          </property>
+          <widget class="QCheckBox" name="Monthly_bill">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>121</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Monthly Bill</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="Transportation">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>131</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Transportation</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="swiming">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>141</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Swiming</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="launch">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>90</y>
+             <width>151</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Launch/fooding</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="scholarship">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>110</y>
+             <width>171</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Scholarship/Discount</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="discount">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>130</y>
+             <width>141</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item row="12" column="5" colspan="2">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="7">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="8">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="text">
+         <string>Clear</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="7" rowspan="5" colspan="2">
+       <widget class="QFrame" name="frame_2">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
